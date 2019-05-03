@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Quantiphi</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.1/css/all.min.css" />
+    <link rel="stylesheet" href="css/voting.css" />
+    <script src="./js/voting.js" type="text/javascript"></script>
+  </head>
+  <body>
+    <header>
+      <img src="images/logo.png" alt="quantiphi logo">
+    </header>
+
+    <div class="container">
+      <div class="box">
+        <h1>Department: Facilities</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut </p>
+      <!-- TODO: show this button on mascot click -->
+      <button type="button" id="next-dept" class="grey-button">Move on to the next department</button>
+    </div>
+      <h4>Choose your mascot for this department <span class="light">(hover over each mascot to know its meaning)</span></h4>
+      <div class="departments">
+
+        <div class="mascot">
+          <img src="images/oyster.png" alt="Oyster mascot">
+          <div class="tooltip">World is my <b>Oyster</b> Chase
+            <span class="tooltiptext">My work/the attributes initiative is not having direction and needs greater mentorship or leadership</span>
+          </div>
+        </div>
+
+        <div class="mascot">
+          <img src="images/cat.png" alt="Cat mascot">
+          <div class="tooltip"><b>Cat's</b> meow
+            <span class="tooltiptext">My work/the attributes initiative is not having direction and needs greater mentorship or leadership</span>
+          </div>
+        </div>
+
+        <div class="mascot">
+          <img src="images/whale.png" alt="Whale mascot">
+          <div class="tooltip"><b>Whale</b> of a time
+            <span class="tooltiptext">My work/the attributes initiative is not having direction and needs greater mentorship or leadership</span>
+          </div>
+        </div>
+
+        <div class="mascot">
+          <img src="images/elephant.png" alt="Elephant mascot">
+          <div class="tooltip"><b>Elephant</b> in the room
+            <span class="tooltiptext">My work/the attributes initiative is not having direction and needs greater mentorship or leadership</span>
+          </div>
+        </div>
+
+        <div class="mascot">
+          <img src="images/fish.png" alt="Fish mascot">
+          <div class="tooltip">Dead <b>Fish</b>
+            <span class="tooltiptext">My work/the attributes initiative is not having direction and needs greater mentorship or leadership</span>
+          </div>
+        </div>
+
+        <div class="mascot">
+          <img src="images/goose.png" alt="Goose mascot">
+          <div class="tooltip">Wild <b>Goose</b> Chase
+          <span class="tooltiptext">My work/the attributes initiative is not having direction and needs greater mentorship or leadership</span>
+        </div>
+        </div>
+
+      </div>
+
+      <!-- on click of mascot show this section -->
+      <div id = "mascot-survey">
+        <div class="item1">
+          <div class="">
+            <h4>Overall Rating for Facilities <span class="light">(1-lowest, 5-highest)</span></h4>
+            <i class="far fa-star fa-lg" id="0"></i>
+            <i class="far fa-star fa-lg" id="1"></i>
+            <i class="far fa-star fa-lg" id="2"></i>
+            <i class="far fa-star fa-lg" id="3"></i>
+            <span id="rating-text">Comment on click of icon</span>
+          </div>
+
+          <div class="">
+            <h4>Share your reason for selecting <b class="red">Wild Goose Chase</b></h4>
+            <div class="inline">
+              <input type="checkbox" class="checkbox">
+              <span class="checkmark"></span>
+              <label>Lorem ipsum dolor sit amet, consectetur adipisicing elit</label>
+            </div>
+            <div class="inline">
+              <input type="checkbox" class="checkbox">
+              <span class="checkmark"></span>
+              <label>Lorem ipsum dolor sit amet, consectetur adipisicing elit</label>
+            </div>
+            <div class="inline">
+              <input type="checkbox" class="checkbox">
+              <span class="checkmark"></span>
+              <label>Lorem ipsum dolor sit amet, consectetur adipisicing elit</label>
+            </div>
+            <div class="inline">
+              <input type="checkbox" class="checkbox">
+              <span class="checkmark"></span>
+              <label>Lorem ipsum dolor sit amet, consectetur adipisicing elit</label>
+            </div>
+            <div class="inline">
+              <input type="checkbox" class="checkbox">
+              <span class="checkmark"></span>
+              <label>Lorem ipsum dolor sit amet, consectetur adipisicing elit</label>
+            </div>
+          </div>
+        </div>
+
+        <div class="item2">
+          <h4>Any more reasons?</h4>
+          <input type="text"  placeholder="Lorem ipsum dolor sit amet, consectetur adipisicing elit">
+          <input type="text"  placeholder="Lorem ipsum dolor sit amet, consectetur adipisicing elit">
+          <input type="text"  placeholder="Lorem ipsum dolor sit amet, consectetur adipisicing elit">
+          <input type="text"  placeholder="Lorem ipsum dolor sit amet, consectetur adipisicing elit">
+          <input type="text"  placeholder="Lorem ipsum dolor sit amet, consectetur adipisicing elit">
+          <input type="text"  placeholder="Lorem ipsum dolor sit amet, consectetur adipisicing elit">
+        </div>
+
+        <div class="item3">
+          <h4>Suggestions</h4>
+          <input type="textbox">
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
